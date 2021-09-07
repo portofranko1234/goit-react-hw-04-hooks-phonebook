@@ -43,7 +43,7 @@ export default function App() {
   };
 
   const changeFilter = (event) => {
-    setFilter({ filter: event.currentTarget.value });
+    setFilter(event.currentTarget.value);
   };
   const getContactshown = () => {
     const normalizedFilter = filter.toLowerCase();
